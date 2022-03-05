@@ -40,6 +40,7 @@ dependencies:
   form_builder_validators: ^7.2.0
   dio: ^4.0.4
   flutter_qr_bar_scanner: ^3.0.2
+  qr_code_scanner: ^0.6.1
 
 dev_dependencies:
   flutter_test:

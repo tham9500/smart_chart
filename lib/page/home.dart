@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:smart_chair/page/login.dart';
+import 'package:smart_chair/page/qrview.dart';
 
 class Home_page extends StatefulWidget {
   Home_page({Key? key}) : super(key: key);
@@ -180,8 +181,8 @@ class _Home_pageState extends State<Home_page> {
         ),
         onPressed: () {
           print("games colors click");
-          // Navigator.push(context,
-          //     MaterialPageRoute(builder: (context) => Home_game()));
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) => QRViewExample()));
         },
       ),
     );
